@@ -15,8 +15,8 @@ int B = int.Parse(numberB);
 
 if (A > B)
 
-        Console.WriteLine($"Число {A} max");
+        Console.WriteLine($"Число {A} max, число {B} min");
 
     else
 
-        Console.WriteLine($"Число {B} max");
+        Console.WriteLine($"Число {B} max, число {A} min");
